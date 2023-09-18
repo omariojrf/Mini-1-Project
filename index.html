@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Images/Wayfarer_icon.png"
+      type="image/x-icon"
+    />
+    <title>Wayfarer | Welcome</title>
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./Images/Wayfarer.png"
+            alt="Wayfarer Logo"
+            width="50"
+            height="50"
+            class="d-inline-block text-center"
+          />
+          <span class="logo-text">Wayfarer</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Blog</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Posts</a>
+                </li>
+                <li><a href="#" class="dropdown-item">Vlogs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+    <section id="showcase">
+      <div class="container text-center text-light">
+        <h2>Wayfarer</h2>
+        <h3>Your passport to the extraordinary</h3>
+      </div>
+    </section>
+
+    <!-- introduction -->
+    <section id="introduction">
+      <div class="container mt-3 mb-3">
+        <div class="row pb-4 pt-4">
+          <div class="col-md-6 align-self-center">
+            <h3>Hello, Connections!</h3>
+            <p>
+              Welcome to the enchanting world of Wayfarer, where the ordinary
+              becomes extraordinary, and the traveler's heart finds its truest
+              calling. Join us on a captivating voyage of exploration and
+              adventure as we traverse the globe, one destination at a time.
+            </p>
+            <p>
+              In a world bursting with diverse cultures, awe-inspiring
+              landscapes, and hidden gems waiting to be unearthed, the art of
+              travel is an ever-evolving narrative. It's about embracing the
+              unknown, immersing ourselves in new experiences, and forging
+              connections with both people and places. It's about writing our
+              own stories on the blank pages of a passport, collecting memories
+              like rare souvenirs, and savoring the flavors of far-off lands.
+            </p>
+            <a href="about.html" class="btn btn-success mt-3">About Us</a>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img
+              src="./Images/home_1.jpg"
+              alt="Introduction Image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured photos -->
+    <section
+      id="feature"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Images/feature_1.jpg"
+            alt="Feature1"
+            class="d-block w-100 img-fluid"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>“There are no shortcuts to any place worth going.”</h2>
+            <p>- Beverly Sills</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/feature_2.jpg"
+            alt="Feature2"
+            class="d-block w-100 img-fluid"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>“The pull of the mountain is like gravity for my soul.”</h2>
+            <p>- Heather Day Gilbert</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/feature_3.jpg"
+            alt="Feature3"
+            class="d-block w-100 img-fluid"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>“A walk in nature walks the soul back home.”</h2>
+            <p>- Mary Davis</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/feature_4.jpg"
+            alt="Feature3"
+            class="d-block w-100 img-fluid"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>
+              “The clearest way into the universe is through a forest
+              wilderness.”
+            </h2>
+            <p>- John Muir</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#feature"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#feature"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- Post and Videos -->
+
+    <!-- for vlogs -->
+    <section id="vlogs">
+      <div class="container pb-3 pt-3 d-flex justify-content-between">
+        <div class="row mb-4 mt-4 g-4">
+          <div class="col-md-4 d-flex justify-content-between">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ym-V0-AlSH0?si=UuGhBOf6pe209fY4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-4 d-flex justify-content-between">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/O3bU1KvSO6Y?si=PyK2WwcSMAh5fSG0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-4 text-center">
+            <h2>Hiking Vlogs</h2>
+            <p>
+              Your vlogs have the power to inspire others to get outside,
+              explore nature, and embark on their own hiking journeys. Sharing
+              your experiences and passion can motivate viewers to connect with
+              the natural world.
+            </p>
+            <p>
+              Over time, your hiking vlog can attract a community of like-minded
+              individuals who share their own hiking experiences and advice.
+              This sense of community can be incredibly fulfilling.
+            </p>
+            <a href="#" class="btn btn-success mt-2">Watch More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- for posts -->
+    <section id="post">
+      <div class="container p-5">
+        <h5 class="text-center text-light">
+          Hiking often brings people together. Whether you're hiking with
+          friends, family, or joining a group of like-minded adventurers, the
+          shared experience of conquering trails and witnessing nature's
+          grandeur creates bonds that can last a lifetime.
+        </h5>
+      </div>
+      <div class="container pb-5 d-flex justify-content-between">
+        <div class="row g-2">
+          <div class="col-md-4 d-flex justify-content-between">
+            <div class="card text-center">
+              <img
+                src="./Images/pulag_1.jpg"
+                alt="Pulag 1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h6 class="card-title">Mount Pulag, Philippines</h6>
+                <p class="card-text"></p>
+                <p class="card-text">
+                  While Mount Pulag is considered a beginner-friendly trek, it's
+                  not without its challenges. The high altitude, often chilly
+                  weather, and steep trails can make it physically demanding.
+                  Acclimatization is crucial to minimize the risk of altitude
+                  sickness.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">February 25, 2022</small>
+                </p>
+                <a href="#" class="btn btn-success mt-2">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-between">
+            <div class="card text-center">
+              <img
+                src="./Images/pinatubo_1.jpg"
+                alt="Pulag 1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h6 class="card-title">Mount Pinatubo, Philippines</h6>
+                <p class="card-text"></p>
+                <p class="card-text">
+                  At the end of your hike, you'll be rewarded with a view of the
+                  magnificent crater lake, a turquoise oasis nestled within the
+                  crater's rugged walls. You can take a dip in the lake's cool
+                  waters or simply savor the serene beauty of the surroundings.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">June 8, 2022</small>
+                </p>
+                <a href="#" class="btn btn-success mt-2">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex justify-content-between">
+            <div class="card text-center">
+              <img
+                src="./Images/apo_3.jpg"
+                alt="Pulag 1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h6 class="card-title">Mount Apo, Philippines</h6>
+                <p class="card-text"></p>
+                <p class="card-text">
+                  As you ascend Mount Apo, you'll traverse through an array of
+                  landscapes, from dense forests and mossy rainforests to open
+                  grasslands. The ever-changing scenery is nothing short of
+                  breathtaking, offering picturesque views at every turn.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">October 18, 2022</small>
+                </p>
+                <a href="#" class="btn btn-success mt-2">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-dark text-light text-center position-relative">
+      <div class="container">
+        <p>Copyright &copy; 2023 Wayfarer</p>
+        <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+        <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+        <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+        <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
