@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="./Wayfarer.png" type="image/x-icon" />
     <title>Wayfarer | Welcome</title>
   </head>
-  <body class="bg-light">
+  <body>
     <!-- Navbar -->
     <nav
       id="main_menu"
@@ -32,7 +32,7 @@
             height="50"
             class="d-inline-block text-center"
           />
-          Wayfarer
+          <span class="logo-text">Wayfarer</span>
         </a>
         <button
           class="navbar-toggler"
@@ -73,42 +73,371 @@
       </div>
     </nav>
     <!-- About -->
-    <section id="about">
-      <h2 id="about-title" class="text-light">About Wayfarer</h2>
-      <div id="bg-about" class="text-dark">
-        <div class="container text-center mb-5 mt-5">
-          <div class="row p-3">
-            <div class="col-md-6">
-              <p class="lead fw-bold">
-                Welcome to my corner of the world! I'm Mario, the storyteller
-                behind Wayfarer. I'm thrilled to have you here and excited to
-                share my adventures, insights, and wanderlust-infused
-                experiences with you.
-              </p>
+    <section id="about" class="text-light">
+      <h2 id="about-title">About Wayfarer</h2>
+      <div class="container text-center mb-5 mt-5">
+        <div class="row p-3">
+          <div class="col-md-6">
+            <h5>
+              Welcome to my corner of the world! I'm Mario, the storyteller
+              behind Wayfarer. I'm thrilled to have you here and excited to
+              share my adventures, insights, and wanderlust-infused experiences
+              with you.
+            </h5>
 
-              <p>
-                Ever since I can remember, I've been captivated by the magic of
-                travel. Whether it was exploring the hidden alleys of my
-                hometown or embarking on epic journeys to far-flung
-                destinations, the call of adventure has always been my guiding
-                star. Through the lens of my camera and the strokes of my
-                keyboard, I've made it my mission to capture the essence of each
-                place I visit and bring those moments to life for you, my fellow
-                adventurers.
-              </p>
+            <p>
+              Ever since I can remember, I've been captivated by the magic of
+              travel. Whether it was exploring the hidden alleys of my hometown
+              or embarking on epic journeys to far-flung destinations, the call
+              of adventure has always been my guiding star. Through the lens of
+              my camera and the strokes of my keyboard, I've made it my mission
+              to capture the essence of each place I visit and bring those
+              moments to life for you, my fellow adventurers.
+            </p>
 
-              <p>
-                This blog is my labor of love, born from a deep passion for
-                exploring the world and a desire to inspire others to do the
-                same. I believe that travel has the power to transform us,
-                broaden our horizons, and connect us with the incredible
-                diversity of our planet. Through my writing, I hope to ignite
-                your wanderlust, provide practical tips and insights, and
-                encourage you to embark on your own unforgettable journeys.
-              </p>
+            <p>
+              This blog is my labor of love, born from a deep passion for
+              exploring the world and a desire to inspire others to do the same.
+              I believe that travel has the power to transform us, broaden our
+              horizons, and connect us with the incredible diversity of our
+              planet. Through my writing, I hope to ignite your wanderlust,
+              provide practical tips and insights, and encourage you to embark
+              on your own unforgettable journeys.
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img src="./Images/about_1.jpg" alt="About 1" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="container text-center pb-5 mt-5">
+        <div class="row p-3">
+          <div class="col-md-6 align-self-center">
+            <img src="./Images/about_3.jpg" alt="About 1" width="100%" />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h5>Our Missions</h5>
+            <p>
+              <span class="mission">Connecting Hikers:</span> Create a vibrant
+              online community of hikers and backpackers. We provide a platform
+              for hikers to connect, share experiences, and offer advice.
+              Through our blog, we promote camaraderie among outdoor
+              enthusiasts.
+            </p>
+
+            <p>
+              <span class="mission">Scenic Exploration:</span> We are committed
+              to showcasing the most scenic and picturesque hiking trails around
+              the world. Our mission is to guide hikers to breathtaking vistas,
+              hidden waterfalls, and remote wilderness areas, encouraging them
+              to discover the world's natural wonders.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section>
+      <div class="container pt-3 pb-3 mt-3">
+        <h3 id="faq-title">Frequently Asked Questions</h3>
+      </div>
+      <div class="container text-center border mt-3 mb-5">
+        <div class="row p-3">
+          <div class="col-md-6">
+            <div class="accordion accordion-flush" id="faq">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq1"
+                  >
+                    What gear do I need for hiking?
+                  </button>
+                </h2>
+                <div
+                  id="faq1"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Hiking boots, appropriate clothing, a backpack, water
+                    bottles, navigation tools, and safety essentials like a
+                    first-aid kit are some of the basic gear you'll need. The
+                    specific gear may vary depending on the type of hike and
+                    terrain.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq2"
+                  >
+                    How do I choose the right hiking trail?
+                  </button>
+                </h2>
+                <div
+                  id="faq2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Consider your fitness level, experience, and the type of
+                    experience you want. Research trails based on distance,
+                    difficulty, and scenery, and choose one that matches your
+                    preferences.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq3"
+                  >
+                    How do I stay safe while hiking?
+                  </button>
+                </h2>
+                <div
+                  id="faq3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Safety is paramount. Inform someone of your hiking plans,
+                    carry essentials like a map and compass, check the weather
+                    forecast, and stay on marked trails. Be prepared for
+                    emergencies with basic survival skills.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq4"
+                  >
+                    What are Leave No Trace principles?
+                  </button>
+                </h2>
+                <div
+                  id="faq4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Leave No Trace is a set of ethical guidelines for outdoor
+                    enthusiasts. It emphasizes responsible behavior to minimize
+                    human impact on nature. Principles include packing out all
+                    trash, staying on designated trails, and respecting
+                    wildlife.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq5"
+                  >
+                    How do I prepare for a long-distance hike?
+                  </button>
+                </h2>
+                <div
+                  id="faq5"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Long-distance hikes require thorough planning. Train
+                    physically, research the trail thoroughly, plan resupply
+                    points, and ensure you have the appropriate gear and
+                    permits.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq6"
+                  >
+                    What should I do if I encounter wildlife on the trail?
+                  </button>
+                </h2>
+                <div
+                  id="faq6"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Maintain a safe distance, don't feed wildlife, and never
+                    approach or corner animals. Research the specific wildlife
+                    in the area you're hiking to know how to respond.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6 align-self-center">
-              <img src="./Images/about_1.jpg" alt="About 1" width="100%" />
+          </div>
+          <div class="col-md-6">
+            <div class="accordion accordion-flush" id="faq">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq7"
+                  >
+                    What's the best way to pack a backpack for a hike?
+                  </button>
+                </h2>
+                <div
+                  id="faq7"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Distribute weight evenly, with heavy items close to your
+                    back. Use packing cubes to organize gear, and ensure
+                    essentials like water and snacks are easily accessible.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq8"
+                  >
+                    How do I prevent blisters and foot discomfort while hiking?
+                  </button>
+                </h2>
+                <div
+                  id="faq8"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Properly fitting hiking boots, moisture-wicking socks, and
+                    preemptive measures like applying moleskin to hot spots can
+                    help prevent blisters. Break in new boots before embarking
+                    on a long hike.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq9"
+                  >
+                    What should I do if I get lost on the trail?
+                  </button>
+                </h2>
+                <div
+                  id="faq9"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Stay calm and retrace your steps if possible. If you're
+                    unable to find your way, use a map, compass, or GPS device
+                    to determine your location. Having these navigation tools
+                    and knowing how to use them is crucial.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq10"
+                  >
+                    How can I minimize my impact on the environment while
+                    hiking?
+                  </button>
+                </h2>
+                <div
+                  id="faq10"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Follow Leave No Trace principles, stay on marked trails,
+                    avoid trampling vegetation, pack out all trash, and be
+                    respectful of wildlife. Hike in small groups, and be mindful
+                    of noise pollution
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq11"
+                  >
+                    What should I eat on a long hike?
+                  </button>
+                </h2>
+                <div
+                  id="faq11"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    High-energy, non-perishable snacks like trail mix, energy
+                    bars, and dried fruits are great options. Bring sufficient
+                    water or a way to purify water from natural sources.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq12"
+                  >
+                    How do I plan a multi-day backpacking trip?
+                  </button>
+                </h2>
+                <div
+                  id="faq12"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq"
+                >
+                  <div class="accordion-body">
+                    Research the trail, plan your route, calculate daily
+                    mileage, and consider where to camp. Make reservations if
+                    required, check permit regulations, and pack enough food and
+                    gear for the duration.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -116,13 +445,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="p-3 bg-dark text-light text-center position-relative">
+    <footer class="p-3 bg-dark text-success text-center position-relative">
       <div class="container">
         <p>Copyright &copy; 2023 Wayfarer</p>
-        <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
-        <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
-        <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
-        <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+        <a href="#"><i class="bi bi-twitter text-success mx-2"></i></a>
+        <a href="#"><i class="bi bi-facebook text-success mx-2"></i></a>
+        <a href="#"><i class="bi bi-linkedin text-success mx-2"></i></a>
+        <a href="#"><i class="bi bi-instagram text-success mx-2"></i></a>
       </div>
     </footer>
 

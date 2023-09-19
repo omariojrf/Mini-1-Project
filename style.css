@@ -58,6 +58,14 @@
   padding-bottom: 8vh;
 }
 
+#about {
+  background-image: url(./Images/about_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .carousel-inner img{
   height: 500px;
   object-fit: cover;
@@ -92,7 +100,28 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-#vlogs h2 {
+#vlogs h2, #about h5, #mission h5 {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#about h5, #mission h5, #about p, #mission p, .mission{
+  text-shadow: 2px 2px 2px black;
+}
+
+#about p, #mission p, .mission
+
+.mission {
+  font-weight: bold;
+}
+
+#faq-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#contact h2, #contact h4 {
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
